@@ -1,0 +1,40 @@
+h1, h2{
+    font-size: 30px;
+    font-weight: bold;
+    border: 3px solid #CFB53B;
+    padding: 10px;
+    display: inline-block;
+}
+
+body{
+    text-align: center;
+    background-color: #2B0A12;
+    color: white
+}
+
+div{
+    font-size: 15px;
+}
+a{
+    color: goldenrod;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover{
+    color: #B8860B;
+}
+
+.language-list {
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: center;
+    
+    column-gap: 20px;
+    row-gap: 10px;
+    
+    width: fits-content;
+    margin: 10px;
+
+    text-align: center;
+}
